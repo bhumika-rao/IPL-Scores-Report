@@ -221,6 +221,61 @@ public class SportsKeedaPage extends BaseClass{
 			sportsKeedaScoresPage.printMatchResults();
 			break;
 		}
+		case "CSKvsRCB":
+		{			
+			String winHandleBefore = driver.getWindowHandle();
+			getCSKvsRCB().click();
+			for(String winHandle : driver.getWindowHandles()){
+			    driver.switchTo().window(winHandle);
+			}
+			SportsKeedaScoresPage sportsKeedaScoresPage=PageFactory.initElements(driver, SportsKeedaScoresPage.class);
+			sportsKeedaScoresPage.printMatchResults();
+			break;
+		}
+		case "CSKvsMI":
+		{			
+			String winHandleBefore = driver.getWindowHandle();
+			getCSKvsMI().click();
+			for(String winHandle : driver.getWindowHandles()){
+			    driver.switchTo().window(winHandle);
+			}
+			SportsKeedaScoresPage sportsKeedaScoresPage=PageFactory.initElements(driver, SportsKeedaScoresPage.class);
+			sportsKeedaScoresPage.printMatchResults();
+			break;
+		}
+		case "CSKvsDC":
+		{			
+			String winHandleBefore = driver.getWindowHandle();
+			getCSKvsDC().click();
+			for(String winHandle : driver.getWindowHandles()){
+			    driver.switchTo().window(winHandle);
+			}
+			SportsKeedaScoresPage sportsKeedaScoresPage=PageFactory.initElements(driver, SportsKeedaScoresPage.class);
+			sportsKeedaScoresPage.printMatchResults();
+			break;
+		}
+		case "CSKvsSRH":
+		{			
+			String winHandleBefore = driver.getWindowHandle();
+			getCSKvsSRH().click();
+			for(String winHandle : driver.getWindowHandles()){
+			    driver.switchTo().window(winHandle);
+			}
+			SportsKeedaScoresPage sportsKeedaScoresPage=PageFactory.initElements(driver, SportsKeedaScoresPage.class);
+			sportsKeedaScoresPage.printMatchResults();
+			break;
+		}
+		case "CSKvsRR":
+		{			
+			String winHandleBefore = driver.getWindowHandle();
+			getCSKvsRR().click();
+			for(String winHandle : driver.getWindowHandles()){
+			    driver.switchTo().window(winHandle);
+			}
+			SportsKeedaScoresPage sportsKeedaScoresPage=PageFactory.initElements(driver, SportsKeedaScoresPage.class);
+			sportsKeedaScoresPage.printMatchResults();
+			break;
+		}
 		case "CSKvsPBKS":
 		{			
 			String winHandleBefore = driver.getWindowHandle();
@@ -232,34 +287,227 @@ public class SportsKeedaPage extends BaseClass{
 			sportsKeedaScoresPage.printMatchResults();
 			break;
 		}
+		case "MIvsRCB":
+		{			
+			String winHandleBefore = driver.getWindowHandle();
+			getMIvsRCB().click();
+			for(String winHandle : driver.getWindowHandles()){
+			    driver.switchTo().window(winHandle);
+			}
+			SportsKeedaScoresPage sportsKeedaScoresPage=PageFactory.initElements(driver, SportsKeedaScoresPage.class);
+			sportsKeedaScoresPage.printMatchResults();
+			break;
+		}
+		case "MIvsDC":
+		{			
+			String winHandleBefore = driver.getWindowHandle();
+			getMIvsDC().click();
+			for(String winHandle : driver.getWindowHandles()){
+			    driver.switchTo().window(winHandle);
+			}
+			SportsKeedaScoresPage sportsKeedaScoresPage=PageFactory.initElements(driver, SportsKeedaScoresPage.class);
+			sportsKeedaScoresPage.printMatchResults();
+			break;
+		}
+		case "MIvsSRH":
+		{			
+			String winHandleBefore = driver.getWindowHandle();
+			getMIvsSRH().click();
+			for(String winHandle : driver.getWindowHandles()){
+			    driver.switchTo().window(winHandle);
+			}
+			SportsKeedaScoresPage sportsKeedaScoresPage=PageFactory.initElements(driver, SportsKeedaScoresPage.class);
+			sportsKeedaScoresPage.printMatchResults();
+			break;
+		}
+		case "MIvsPBKS":
+		{			
+			String winHandleBefore = driver.getWindowHandle();
+			getMIvsPBKS().click();
+			for(String winHandle : driver.getWindowHandles()){
+			    driver.switchTo().window(winHandle);
+			}
+			SportsKeedaScoresPage sportsKeedaScoresPage=PageFactory.initElements(driver, SportsKeedaScoresPage.class);
+			sportsKeedaScoresPage.printMatchResults();
+			break;
+		}
+		case "MIvsRR":
+		{			
+			String winHandleBefore = driver.getWindowHandle();
+			getMIvsRR().click();
+			for(String winHandle : driver.getWindowHandles()){
+			    driver.switchTo().window(winHandle);
+			}
+			SportsKeedaScoresPage sportsKeedaScoresPage=PageFactory.initElements(driver, SportsKeedaScoresPage.class);
+			sportsKeedaScoresPage.printMatchResults();
+			break;
+		}
+		case "MIvsKKR":
+		{			
+			String winHandleBefore = driver.getWindowHandle();
+			getMIvsKKR().click();
+			for(String winHandle : driver.getWindowHandles()){
+			    driver.switchTo().window(winHandle);
+			}
+			SportsKeedaScoresPage sportsKeedaScoresPage=PageFactory.initElements(driver, SportsKeedaScoresPage.class);
+			sportsKeedaScoresPage.printMatchResults();
+			break;
+		}
+		case "SRHvsRCB":
+		{			
+			String winHandleBefore = driver.getWindowHandle();
+			getSRHvsRCB().click();
+			for(String winHandle : driver.getWindowHandles()){
+			    driver.switchTo().window(winHandle);
+			}
+			SportsKeedaScoresPage sportsKeedaScoresPage=PageFactory.initElements(driver, SportsKeedaScoresPage.class);
+			sportsKeedaScoresPage.printMatchResults();
+			break;
+		}
+		case "SRHvsDC":
+		{			
+			String winHandleBefore = driver.getWindowHandle();
+			getSRHvsDC().click();
+			for(String winHandle : driver.getWindowHandles()){
+			    driver.switchTo().window(winHandle);
+			}
+			SportsKeedaScoresPage sportsKeedaScoresPage=PageFactory.initElements(driver, SportsKeedaScoresPage.class);
+			sportsKeedaScoresPage.printMatchResults();
+			break;
+		}
+		case "SRHvsRR":
+		{			
+			String winHandleBefore = driver.getWindowHandle();
+			getSRHvsRR().click();
+			for(String winHandle : driver.getWindowHandles()){
+			    driver.switchTo().window(winHandle);
+			}
+			SportsKeedaScoresPage sportsKeedaScoresPage=PageFactory.initElements(driver, SportsKeedaScoresPage.class);
+			sportsKeedaScoresPage.printMatchResults();
+			break;
+		}
+		case "SRHvsKKR":
+		{			
+			String winHandleBefore = driver.getWindowHandle();
+			getSRHvsKKR().click();
+			for(String winHandle : driver.getWindowHandles()){
+			    driver.switchTo().window(winHandle);
+			}
+			SportsKeedaScoresPage sportsKeedaScoresPage=PageFactory.initElements(driver, SportsKeedaScoresPage.class);
+			sportsKeedaScoresPage.printMatchResults();
+			break;
+		}
+		case "SRHvsPBKS":
+		{			
+			String winHandleBefore = driver.getWindowHandle();
+			getSRHvsPBKS().click();
+			for(String winHandle : driver.getWindowHandles()){
+			    driver.switchTo().window(winHandle);
+			}
+			SportsKeedaScoresPage sportsKeedaScoresPage=PageFactory.initElements(driver, SportsKeedaScoresPage.class);
+			sportsKeedaScoresPage.printMatchResults();
+			break;
+		}
+		case "RCBvsRR":
+		{			
+			String winHandleBefore = driver.getWindowHandle();
+			getRCBvsRR().click();
+			for(String winHandle : driver.getWindowHandles()){
+			    driver.switchTo().window(winHandle);
+			}
+			SportsKeedaScoresPage sportsKeedaScoresPage=PageFactory.initElements(driver, SportsKeedaScoresPage.class);
+			sportsKeedaScoresPage.printMatchResults();
+			break;
+		}
+		case "RCBvsKKR":
+		{			
+			String winHandleBefore = driver.getWindowHandle();
+			getRCBvsKKR().click();
+			for(String winHandle : driver.getWindowHandles()){
+			    driver.switchTo().window(winHandle);
+			}
+			SportsKeedaScoresPage sportsKeedaScoresPage=PageFactory.initElements(driver, SportsKeedaScoresPage.class);
+			sportsKeedaScoresPage.printMatchResults();
+			break;
+		}
+		case "RCBvsDC":
+		{			
+			String winHandleBefore = driver.getWindowHandle();
+			getRCBvsDC().click();
+			for(String winHandle : driver.getWindowHandles()){
+			    driver.switchTo().window(winHandle);
+			}
+			SportsKeedaScoresPage sportsKeedaScoresPage=PageFactory.initElements(driver, SportsKeedaScoresPage.class);
+			sportsKeedaScoresPage.printMatchResults();
+			break;
+		}
+		case "KKRvsRR":
+		{			
+			String winHandleBefore = driver.getWindowHandle();
+			getKKRvsRR().click();
+			for(String winHandle : driver.getWindowHandles()){
+			    driver.switchTo().window(winHandle);
+			}
+			SportsKeedaScoresPage sportsKeedaScoresPage=PageFactory.initElements(driver, SportsKeedaScoresPage.class);
+			sportsKeedaScoresPage.printMatchResults();
+			break;
+		}
+		case "KKRvsPBKS":
+		{			
+			String winHandleBefore = driver.getWindowHandle();
+			getKKRvsPBKS().click();
+			for(String winHandle : driver.getWindowHandles()){
+			    driver.switchTo().window(winHandle);
+			}
+			SportsKeedaScoresPage sportsKeedaScoresPage=PageFactory.initElements(driver, SportsKeedaScoresPage.class);
+			sportsKeedaScoresPage.printMatchResults();
+			break;
+		}
+		case "KKRvsDC":
+		{			
+			String winHandleBefore = driver.getWindowHandle();
+			getKKRvsDC().click();
+			for(String winHandle : driver.getWindowHandles()){
+			    driver.switchTo().window(winHandle);
+			}
+			SportsKeedaScoresPage sportsKeedaScoresPage=PageFactory.initElements(driver, SportsKeedaScoresPage.class);
+			sportsKeedaScoresPage.printMatchResults();
+			break;
+		}
+		case "PBKSvsDC":
+		{			
+			String winHandleBefore = driver.getWindowHandle();
+			getCSKvsPBKS().click();
+			for(String winHandle : driver.getWindowHandles()){
+			    driver.switchTo().window(winHandle);
+			}
+			SportsKeedaScoresPage sportsKeedaScoresPage=PageFactory.initElements(driver, SportsKeedaScoresPage.class);
+			sportsKeedaScoresPage.printMatchResults();
+			break;
+		}
+		case "PBKSvsRR":
+		{			
+			String winHandleBefore = driver.getWindowHandle();
+			getPBKSvsRR().click();
+			for(String winHandle : driver.getWindowHandles()){
+			    driver.switchTo().window(winHandle);
+			}
+			SportsKeedaScoresPage sportsKeedaScoresPage=PageFactory.initElements(driver, SportsKeedaScoresPage.class);
+			sportsKeedaScoresPage.printMatchResults();
+			break;
+		}
+		case "RRvsDC":
+		{			
+			String winHandleBefore = driver.getWindowHandle();
+			getRRvsDC().click();
+			for(String winHandle : driver.getWindowHandles()){
+			    driver.switchTo().window(winHandle);
+			}
+			SportsKeedaScoresPage sportsKeedaScoresPage=PageFactory.initElements(driver, SportsKeedaScoresPage.class);
+			sportsKeedaScoresPage.printMatchResults();
+			break;
+		}
+		default: System.out.println("You have entered incorrect team combination");
 		}
 	}
 }
-/*CSKvsRCB;
-CSKvsMI;
-CSKvsDC;
-CSKvsSRH;
-CSKvsRR;
-CSKvsKKR;
-CSKvsPBKS;
-MIvsRCB;
-MIvsDC;
-MIvsSRH;
-MIvsPBKS;
-MIvsRR;
-MIvsKKR;
-SRHvsRCB;
-SRHvsDC;
-SRHvsRR;
-SRHvsKKR;
-SRHvsPBKS;
-RCBvsRR;
-RCBvsKKR;
-RCBvsDC;
-KKRvsRR;	
-KKRvsPBKS;
-KKRvsDC;
-PBKSvsDC;
-PBKSvsRR;
-RRvsDC;
-*/

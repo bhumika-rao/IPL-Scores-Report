@@ -36,7 +36,7 @@ public class TestRunner{
 	public void init() throws Exception{
 
 		SportsKeedaPage sportsKeedaPage=PageFactory.initElements(driver, SportsKeedaPage.class);
-		sportsKeedaPage.chooseTeams("CSKvsPBKS");
+		sportsKeedaPage.chooseTeams("PBKSvsRR");
 		
 		}
 }
