@@ -15,7 +15,7 @@ import org.testng.annotations.Test;
 
 public class TestRunner{
 	public static WebDriver driver; 
-	protected final static String URL="https://www.google.com/";
+	protected final static String URL="https://www.sportskeeda.com/cricket/ipl-head-to-head-records?ref=carousel";
 	
 	@BeforeSuite
 	public void initialize() throws IOException{
@@ -34,9 +34,9 @@ public class TestRunner{
 
 	@Test
 	public void init() throws Exception{
-		GooglePage googlePage = PageFactory.initElements(driver, GooglePage.class);	
-			googlePage.startGoogleSearch();
-			googlePage.printTeamNamesAndScores();
+
+		SportsKeedaPage sportsKeedaPage=PageFactory.initElements(driver, SportsKeedaPage.class);
+		sportsKeedaPage.chooseTeams("CSKvsPBKS");
 		
 		}
 }
