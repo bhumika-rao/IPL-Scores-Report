@@ -1,13 +1,14 @@
 package org.com.pageobject;
 
-import java.util.concurrent.TimeUnit;
-
 import org.com.runner.BaseClass;
-import org.com.runner.TestRunner;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+
+/*
+ * URL="https://www.sportskeeda.com/cricket/ipl-head-to-head-records?ref=carousel"
+ */
 
 public class SportsKeedaPage extends BaseClass{
 	
@@ -17,6 +18,9 @@ public class SportsKeedaPage extends BaseClass{
 		  PageFactory.initElements(driver, this);
 	}
 	
+	/*
+	 * WebElements of SportsKeeda Page carousel
+	 */
 	@FindBy(xpath="//td/a[contains(text(),'CSK vs RCB head to head')]")
 	private WebElement CSKvsRCB;
 	
@@ -97,6 +101,10 @@ public class SportsKeedaPage extends BaseClass{
 	
 	@FindBy(xpath="//td/a[contains(text(),'RR vs DC head to head')]")
 	private WebElement RRvsDC;
+	
+	/*
+	 * Getter methods for webElements of SportsKeeda Page carousel
+	 */
 
 	public WebElement getCSKvsRCB() {
 		return CSKvsRCB;
@@ -206,6 +214,9 @@ public class SportsKeedaPage extends BaseClass{
 		return RRvsDC;
 	}
 	
+	/*
+	 * Method to choose the head to head teams and print their results
+	 */
 	public void chooseTeams(String Team1vsTeam2)
 	{
 		switch(Team1vsTeam2) {

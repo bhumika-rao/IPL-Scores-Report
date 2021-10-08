@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-09-29T20:06:45Z" name="IPL Scores Test Suite" finished-at="2021-09-29T20:06:48Z" duration-ms="3154">
+  <suite started-at="2021-10-08T02:07:51Z" name="IPL Scores Test Suite" finished-at="2021-10-08T02:07:59Z" duration-ms="8047">
     <groups>
     </groups>
-    <test started-at="2021-09-29T20:06:45Z" name="Default test" finished-at="2021-09-29T20:06:48Z" duration-ms="3154">
+    <test started-at="2021-10-08T02:07:51Z" name="Default test" finished-at="2021-10-08T02:07:59Z" duration-ms="8047">
       <class name="org.com.runner.TestRunner">
-        <test-method is-config="true" signature="initialize()[pri:0, instance:org.com.runner.TestRunner@3c77d488]" started-at="2021-09-29T20:06:36Z" name="initialize" finished-at="2021-09-29T20:06:45Z" duration-ms="8753" status="PASS">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:org.com.runner.TestRunner@3c77d488]" started-at="2021-10-08T02:07:09Z" name="initialize" finished-at="2021-10-08T02:07:51Z" duration-ms="42483" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method signature="init()[pri:0, instance:org.com.runner.TestRunner@3c77d488]" started-at="2021-09-29T20:06:45Z" name="init" finished-at="2021-09-29T20:06:48Z" duration-ms="3115" status="PASS">
+        <test-method signature="init()[pri:0, instance:org.com.runner.TestRunner@3c77d488]" started-at="2021-10-08T02:07:52Z" name="init" finished-at="2021-10-08T02:07:59Z" duration-ms="7889" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method is-config="true" signature="TeardownTest()[pri:0, instance:org.com.runner.TestRunner@3c77d488]" started-at="2021-09-29T20:06:48Z" name="TeardownTest" finished-at="2021-09-29T20:06:49Z" duration-ms="884" status="PASS">
+        <test-method is-config="true" signature="TeardownTest()[pri:0, instance:org.com.runner.TestRunner@3c77d488]" started-at="2021-10-08T02:08:00Z" name="TeardownTest" finished-at="2021-10-08T02:08:01Z" duration-ms="1131" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TeardownTest -->
